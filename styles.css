@@ -486,59 +486,6 @@ p {
   font-size: 0.92rem;
 }
 
-.signal-panel {
-  position: absolute;
-  top: 28px;
-  right: -22px;
-  z-index: 3;
-  width: min(245px, 62%);
-  border: 1px solid rgba(90, 216, 200, 0.36);
-  border-radius: var(--radius);
-  background: rgba(11, 36, 41, 0.88);
-  box-shadow: 0 24px 60px rgba(11, 36, 41, 0.22);
-  color: var(--white);
-  padding: 16px;
-  backdrop-filter: blur(14px);
-}
-
-.signal-panel::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 38px;
-  margin-bottom: 14px;
-  border-radius: 6px;
-  background:
-    linear-gradient(90deg, rgba(90, 216, 200, 0.18) 1px, transparent 1px),
-    linear-gradient(180deg, transparent 42%, rgba(90, 216, 200, 0.86) 43%, rgba(90, 216, 200, 0.86) 48%, transparent 49%),
-    rgba(255, 255, 255, 0.04);
-  background-size: 22px 100%, 100% 100%, auto;
-}
-
-.signal-panel span,
-.signal-panel small {
-  display: block;
-  color: rgba(255, 255, 255, 0.72);
-}
-
-.signal-panel span {
-  font-size: 0.72rem;
-  font-weight: 850;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.signal-panel strong {
-  display: block;
-  margin-top: 4px;
-  color: var(--white);
-}
-
-.signal-panel small {
-  margin-top: 6px;
-  font-size: 0.78rem;
-}
-
 .trust-strip {
   border-block: 1px solid rgba(15, 92, 83, 0.12);
   background: rgba(255, 255, 255, 0.62);
@@ -1558,14 +1505,6 @@ textarea:focus {
     right: 14px;
     bottom: 14px;
     padding: 14px;
-  }
-
-  .signal-panel {
-    position: relative;
-    top: auto;
-    right: auto;
-    width: 100%;
-    margin-top: 12px;
   }
 
   .final-cta {
