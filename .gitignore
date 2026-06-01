@@ -1,0 +1,22 @@
+node_modules/
+.cache/
+dist/
+vite-dev.*.log
+vite-landing.*.log
+
+# Local/generated media and app experiments not needed for GitHub Pages
+out/
+carruseles generados/
+public/
+src/
+server/
+remotion/
+docs/
+mis fuentes/
+mis logos/
+mis plantillas/
+mi branding/
+*.mp4
+*.mov
+*.webm
+remotion-studio.log
